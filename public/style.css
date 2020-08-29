@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(43, 175, 175);
+    transition: all 0.7s;
+    overflow:hidden;
+}
+.container {
+    height:100vh;
+    display:grid;
+    place-items: center;
+    
+}
+.code {
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+}
+.message {
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+    transition: all 0.7s;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "randomcolor",
+  "version": "1.0.0",
+  "description": "this application creates random colours and gives their hex code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shree",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
