@@ -26,6 +26,13 @@ document.addEventListener('keydown', event => {
    
 
 });
+document.addEventListener('click', event=> {
+				if (event) {
+					 document.body.style.backgroundColor = hexcodebuilder();
+        codeele.innerText = hexcodebuilder();
+				}
+
+})
 
 function hexcodebuilder() {
     let code = '#';
